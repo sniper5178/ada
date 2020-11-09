@@ -1,6 +1,7 @@
+cat > poolMetaData.json << EOF
 {
-"name": "sniper_pool",
-"description": "kor ADA Pool",
-"ticker": "MPN",
+"name": "sniper's mining pool",
+"description": "safe, low-cost ADA Pool in south korea",
+"ticker": "4comi",
 "homepage": "https://ADAsniper.blogspot.com"
 }
