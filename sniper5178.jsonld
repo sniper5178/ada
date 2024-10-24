@@ -1,5 +1,6 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -51,14 +52,26 @@
     }
   },
   "authors": [],
-  "hashAlgorithm": "blake2b-256",
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
   "body": {
     "doNotList": false,
-    "givenName": "sniper5178",
-    "motivations": "I am motivated by the potential of decentralized governance to democratize decision-making in blockchain technology. Cardano's roadmap for governance, especially under the Voltaire era, presents an exciting opportunity to be part of a truly community-led system. My belief in the transformative power of blockchain, along with my desire to contribute meaningfully to its responsible development, inspires me to become a DRep. I am committed to bridging the gap between technical advancements and the needs of the wider Cardano community, ensuring equitable representation and fostering greater engagement.",
-    "objectives": "As a Delegated Representative (DRep), my primary objective is to foster a transparent, community-driven governance system within the Cardano ecosystem. I aim to represent ADA holders' interests by thoroughly evaluating and voting on proposals that align with the long-term sustainability and innovation of the blockchain. My focus will be on balancing technological progress with the inclusive participation of all stakeholders, ensuring that decision-making processes are clear and reflective of the community's voice. I will work to drive adoption of decentralized governance and advocate for constructive collaborations across all levels of Cardano's growth.",
-    "paymentAddress": "addr1q9qxnkssf4trkrlwgw8f4dc7hwg89yh03mmy2y3drc26tysz43ltrg5tkey9p3s7k58vjq9sfunk4yksewhp8hn6h0sskrcns0",
-    "qualifications": "As a Delegated Representative (DRep), my primary objective is to foster a transparent, community-driven governance system within the Cardano ecosystem. I aim to represent ADA holders' interests by thoroughly evaluating and voting on proposals that align with the long-term sustainability and innovation of the blockchain. My focus will be on balancing technological progress with the inclusive participation of all stakeholders, ensuring that decision-making processes are clear and reflective of the community's voice. I will work to drive adoption of decentralized governance and advocate for constructive collaborations across all levels of Cardano's growth.",
+    "givenName": {
+      "@value": "sniper5178"
+    },
+    "motivations": {
+      "@value": " I am motivated by the potential of decentralized governance to democratize decision-making in blockchain technology. Cardano's roadmap for governance, especially under the Voltaire era, presents an exciting opportunity to be part of a truly community-led system. My belief in the transformative power of blockchain, along with my desire to contribute meaningfully to its responsible development, inspires me to become a DRep. I am committed to bridging the gap between technical advancements and the needs of the wider Cardano community, ensuring equitable representation and fostering greater engagement"
+    },
+    "objectives": {
+      "@value": "As a Delegated Representative (DRep), my primary objective is to foster a transparent, community-driven governance system within the Cardano ecosystem. I aim to represent ADA holders' interests by thoroughly evaluating and voting on proposals that align with the long-term sustainability and innovation of the blockchain. My focus will be on balancing technological progress with the inclusive participation of all stakeholders, ensuring that decision-making processes are clear and reflective of the community's voice. I will work to drive adoption of decentralized governance and advocate for constructive collaborations across all levels of Cardano's growth"
+    },
+    "paymentAddress": {
+      "@value": "addr1q9qxnkssf4trkrlwgw8f4dc7hwg89yh03mmy2y3drc26tysz43ltrg5tkey9p3s7k58vjq9sfunk4yksewhp8hn6h0sskrcns0"
+    },
+    "qualifications": {
+      "@value": "I have a solid foundation in blockchain technology, particularly in Cardano’s protocols, gained through my active involvement in the community and ongoing study of governance mechanisms. As a seasoned participant in decentralized networks, I bring experience in reviewing and analyzing proposals, with a deep understanding of the long-term impacts of protocol changes. My background in leadership roles within digital communities equips me with the skills necessary to responsibly represent ADA holders, ensuring transparency and accountability in every governance decision. I am also committed to continuous learning to stay updated on evolving blockchain standards"
+    },
     "references": []
   }
 }
